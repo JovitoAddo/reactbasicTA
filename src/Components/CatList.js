@@ -27,7 +27,7 @@ function CatList({data}){
         ):(
             cats.map((data)=>(
                 <div key='props'>
-                    <img src={data.image.url} width='150'/>
+                    <img src={data.image.url} width='150' alt=''/>
                     <h2 style={
                         {color: 'red'}
                     }>{data.name}</h2>
